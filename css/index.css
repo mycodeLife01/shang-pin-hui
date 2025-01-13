@@ -1,4 +1,4 @@
-/* #region topbar开始*/
+/* #region topbar start*/
 .topbar {
     background-color: #ECECEC;
     height: 30px;
@@ -58,10 +58,10 @@
     border-right: 0;
 }
 
-/* #endregion topbar结束*/
-/* #region header开始 */
+/* #endregion topbar end*/
+/* #region header start */
 .header {
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 
 .header .container form {
@@ -85,4 +85,29 @@
     background-position: 28px 6px;
 }
 
-/* #endregion header结束 */
+/* #endregion header end */
+/* #region main-nav start */
+.main-nav {
+    border-bottom: 1px solid #DD302D;
+}
+
+.main-nav .container .category-bar {
+    width: 190px;
+    height: 48px;
+    background-color: #DD302D;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+}
+
+.main-nav .container .category li {
+    float: left;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+/* #endregion main-nav end */
