@@ -2,12 +2,12 @@
 .topbar {
     background-color: #ECECEC;
     height: 30px;
+    color: #666;
 }
 
-.topbar-container {
+.container {
     margin: 0 auto;
     width: 1190px;
-    color: #666;
 }
 
 .welcome {
@@ -59,3 +59,30 @@
 }
 
 /* #endregion topbar结束*/
+/* #region header开始 */
+.header {
+    background-color: skyblue;
+}
+
+.header .container form {
+    font-size: 0;
+    margin-top: 42px;
+}
+
+.header .container form input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+}
+
+.header .container form button {
+    width: 80px;
+    height: 36px;
+    vertical-align: top;
+    background-color: #DD302D;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+
+/* #endregion header结束 */
