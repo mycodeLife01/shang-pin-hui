@@ -294,3 +294,16 @@
     background-position: -144px -96px;
 }
 /* #endregion main-content end */
+/* #region seckill start */
+.seckill {
+    margin-top: 10px;
+}
+
+.seckill img {
+    float: left;
+    margin-right: 11px;
+}
+.seckill img:last-child {
+    margin-right: 0;
+}
+/* #endregion seckill end */
