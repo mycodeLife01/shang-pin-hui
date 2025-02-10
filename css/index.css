@@ -129,7 +129,7 @@
     padding-left: 16px;
 }
 
-.main-content .slide-nav li:hover .second-menu{
+.main-content .slide-nav li:hover .second-menu {
     display: block;
 }
 
@@ -161,7 +161,8 @@
     font-weight: bold;
     padding-right: 10px;
 }
-.second-menu dl dd{
+
+.second-menu dl dd {
     float: left;
 }
 
@@ -169,6 +170,7 @@
     padding: 0 10px;
     border-left: 1px solid #666;
 }
+
 .main-content .banner {
     background-color: orange;
     width: 690px;
@@ -196,13 +198,13 @@
     border: 1px solid #D9D9D9;
 }
 
-.other .message .title{
+.other .message .title {
     height: 38px;
     line-height: 38px;
     border-bottom: 1px solid #D9D9D9;
 }
 
-.other .message .title span{
+.other .message .title span {
     font-size: 14px;
     font-weight: bold;
 }
@@ -220,7 +222,7 @@
     line-height: 26px;
 }
 
-.other-nav-list li{
+.other-nav-list li {
     /* background-color: skyblue; */
     width: 48px;
     height: 70px;
@@ -244,55 +246,65 @@
 
 .other-nav-list:nth-child(3) {
     margin-top: 17px;
-} 
+}
 
 .other-nav-list .picture {
     width: 48px;
     height: 48px;
     background-image: url('../images/精灵图-侧边功能.png');
 }
+
 /* 第1行图 */
-.other-nav-list:first-child li:nth-child(1) .picture{
+.other-nav-list:first-child li:nth-child(1) .picture {
     background-position: 0 0;
 }
 
-.other-nav-list:first-child li:nth-child(2) .picture{
+.other-nav-list:first-child li:nth-child(2) .picture {
     background-position: -48px 0;
 }
-.other-nav-list:first-child li:nth-child(3) .picture{
+
+.other-nav-list:first-child li:nth-child(3) .picture {
     background-position: -96px 0;
 }
-.other-nav-list:first-child li:nth-child(4) .picture{
+
+.other-nav-list:first-child li:nth-child(4) .picture {
     background-position: -144px 0;
 }
+
 /* 第2行图 */
-.other-nav-list:nth-child(2) li:nth-child(1) .picture{
+.other-nav-list:nth-child(2) li:nth-child(1) .picture {
     background-position: 0 -48px;
 }
 
-.other-nav-list:nth-child(2) li:nth-child(2) .picture{
+.other-nav-list:nth-child(2) li:nth-child(2) .picture {
     background-position: -48px -48px;
 }
-.other-nav-list:nth-child(2) li:nth-child(3) .picture{
+
+.other-nav-list:nth-child(2) li:nth-child(3) .picture {
     background-position: -96px -48px;
 }
-.other-nav-list:nth-child(2) li:nth-child(4) .picture{
+
+.other-nav-list:nth-child(2) li:nth-child(4) .picture {
     background-position: -144px -48px;
 }
+
 /* 第3行图 */
-.other-nav-list:nth-child(3) li:nth-child(1) .picture{
+.other-nav-list:nth-child(3) li:nth-child(1) .picture {
     background-position: 0 -96px;
 }
 
-.other-nav-list:nth-child(3) li:nth-child(2) .picture{
+.other-nav-list:nth-child(3) li:nth-child(2) .picture {
     background-position: -48px -96px;
 }
-.other-nav-list:nth-child(3) li:nth-child(3) .picture{
+
+.other-nav-list:nth-child(3) li:nth-child(3) .picture {
     background-position: -96px -96px;
 }
-.other-nav-list:nth-child(3) li:nth-child(4) .picture{
+
+.other-nav-list:nth-child(3) li:nth-child(4) .picture {
     background-position: -144px -96px;
 }
+
 /* #endregion main-content end */
 /* #region seckill start */
 .seckill {
@@ -303,7 +315,193 @@
     float: left;
     margin-right: 11px;
 }
+
 .seckill img:last-child {
     margin-right: 0;
 }
+
 /* #endregion seckill end */
+
+/* #region floor start */
+.floor {
+    margin-top: 48px;
+}
+
+.floor-name {
+    font-size: 20px;
+}
+
+.floor-nav {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #DD302D;
+}
+
+.floor-nav-list {
+    height: 30px;
+    line-height: 30px;
+}
+
+.floor-nav-list li {
+    float: left;
+    font-size: 14px;
+}
+
+.floor-nav-list li a {
+    padding: 0 10px;
+    border-right: 1px solid #666;
+}
+
+.floor-nav-list li:first-child a {
+    padding-left: 0;
+}
+
+.floor-nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+.floor-info .item {
+    float: left;
+    height: 432px;
+}
+
+.floor-info .item1 {
+    height: 392px;
+    width: 190px;
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+
+.floor-info .item2 {
+    width: 340px;
+    /* background-color: green; */
+}
+
+.floor-info .item3 {
+    width: 206px;
+    /* background-color: brown; */
+    border-right: 1px solid #e2e2e2;
+}
+
+.floor-info .item3 img {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.floor-info .item4 {
+    width: 206px;
+    /* background-color: red; */
+    border-right: 1px solid #e2e2e2;
+}
+
+.floor-info .item4 img {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.floor-info .item5 {
+    width: 206px;
+    /* background-color: gray; */
+}
+
+.floor-info .item5 img {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.floor-info .item1-list li {
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.floor-info .item1-list li:nth-child(2n-1) {
+    float: left;
+}
+
+.floor-info .item1-list li:nth-child(2n) {
+    float: right;
+}
+
+.floor-info .item1-list li:nth-child(3) {
+    margin: 14.4px 0;
+}
+
+.floor-info .item1-list li:nth-child(4) {
+    margin: 14.4px 0;
+}
+
+.floor-info .item1-list {
+    margin-bottom: 29px;
+}
+
+.h {
+    width: 1190px;
+    height: 2000px;
+
+}
+
+/* #endregion floor end */
+
+/* #region footer start */
+.footer {
+    margin-top: 48px;
+    background-color: #483E3E;
+    height: 440px;
+}
+
+.top-links-list {
+    width: 190px;
+    height: 176px;
+    float: left;
+    margin-top: 48px;
+}
+
+.top-links-list li a {
+    color: white;
+    font-size: 14px;
+}
+
+.line {
+    height: 1px;
+    background-color: #584d4d;
+    margin-top: 22px;
+}
+
+.bottom-links {
+    text-align: center;
+}
+
+.bottom-links-list {
+    display: inline-block;
+    margin-top: 47px;
+}
+
+.bottom-links-list li a {
+    color: white;
+    font-size: 14px;
+    padding: 0 26px;
+    border-right: 1px solid #D9D9D9;
+}
+
+.bottom-links-list li:first-child a {
+    padding-left: 0;
+    border-right: 1px solid #D9D9D9;
+}
+
+.bottom-links-list li:last-child a {
+    padding-right: 0;
+    border: 0
+}
+
+.bottom-links-list li {
+    float: left;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* #endregion footer end */
